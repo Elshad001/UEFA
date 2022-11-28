@@ -1,0 +1,921 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    width:100%;
+    background-color:aliceblue;
+    
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    z-index: -1;
+}
+.allsections
+{
+    position: absolute;
+    width:100%;
+    height:600px;
+    background-color: rgb(169, 164, 164);
+    z-index: 1;
+    visibility:hidden;
+}
+.allsections .all-lp
+{
+    width:35%
+}
+.allsections .all-rp 
+{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header
+{
+    width:100%;
+    height:100px;
+}
+.header-up
+{
+    display: flex;
+    width:100%;
+    height:50px;
+    background-image:linear-gradient(to right,rgb(138, 134, 134),white,rgb(138, 134, 134));
+}
+.logo
+{
+    width:30%;
+    color:aliceblue;
+    padding-top: 5px;
+}
+#sp1
+{
+    margin-left: 38px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#sp2
+{
+    font-family: fantasy;
+    color: #000;
+}
+.navbar-up
+{
+    width:70%;
+}
+.navbar-up ul
+{
+    margin-left: 230px;
+    list-style: none;
+}
+.navbar-up ul li
+{
+    float: left;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+.navbar-up ul li a
+{
+    text-decoration: none;
+    color:#000;
+    font-size: 17px;
+}
+.navbar-up ul li a:hover
+{
+    color:rgb(40, 40, 200)
+}
+#sp3
+{
+    display: block;
+    width:120px;
+    height:35px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius:30px;
+    margin-top: -5px;
+    background-color: rgb(204, 150, 11);
+}
+#loginicon
+{
+    font-size: 15px;
+}
+#barsicon
+{
+    font-size: 20px;
+}
+.header-down
+{
+    width:100%;
+    height:50px;
+    background-color: black;
+}
+.navbar-down
+{
+    width:100%;
+    
+}
+.navbar-down ul
+{
+    list-style: none;
+}
+.navbar-down ul li
+{
+    float: left;
+    display: block;
+    border-right:3px solid #fff;
+    margin-top: 10px;
+    margin-left: 38px;
+    padding-right: 20px;
+}
+.navbar-down ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+}
+.navbar-down ul li a:hover
+{
+    opacity:50%;
+}
+#wr1
+{
+    border: 0ch;
+}
+.main
+{
+    display: flex;
+    width:100%;
+}
+.left-part
+{
+    width:25%;
+    background-color: aliceblue;
+}
+.mid-part
+{
+    position: relative;
+    width:50%;
+}
+.right-part
+{
+    position:sticky;
+    top:1000px;
+    left:1150px;
+    width:25%;
+    padding-left: -20px;
+}
+.lp-1
+{
+    position: relative;
+    width:350px;
+    height:423px;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background-image: url(images/img1-left.png);
+    background-repeat: no-repeat;
+}
+.lp-2
+{
+    width:350px;
+    height:423px;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background-image: url(images/img2-left.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.lp-3
+{
+    width:350px;
+    height:423px;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background-image: url(images/img3-left.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+#sp4
+{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 5px;
+}
+.btn1-left
+{
+    width:350px;
+    height:100px;
+    background-color: aliceblue;
+    margin-left: 30px;
+
+}
+#btn1-left
+{
+    width:300px;
+    height:50px;
+    margin-top: 30px;
+    margin-left: 15px;
+    border-color: rgb(51, 95, 183);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    color:rgb(31, 99, 189)
+}
+#btn1-left:hover
+{
+    background-color: rgb(37, 37, 213);
+    color:aliceblue
+}
+#btn2-left
+{
+    width:300px;
+    height:50px;
+    margin-top: 30px;
+    margin-left:35px;
+    border-color: rgb(51, 95, 183);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    color:rgb(31, 99, 189) 
+}
+#btn2-left:hover
+{
+    background-color: rgb(37, 37, 213);
+    color:aliceblue
+}
+#btn3-left
+{
+    width:300px;
+    height:50px;
+    margin-top: 30px;
+    margin-left: 28px;
+    border-color: rgb(51, 95, 183);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    color:rgb(31, 99, 189) 
+}
+#btn3-left:hover
+{
+    background-color: rgb(37, 37, 213);
+    color:aliceblue
+}
+#sp5
+{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.mid1
+{
+    position: relative;
+    top:55px;
+    left:50px;
+    width:700px;
+    height:400px;
+    border:1px solid #000;
+    background-image: url(https://editorial.uefa.com/resources/0279-161fe3758d36-a5cdb0acb737-1000/format/wide1/ucl_-_matchweek_preview_01_-_twitter_5_.jpeg?imwidth=2048);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: background-image;
+    transition-duration: 2s;
+}
+.mid1:hover
+{
+    background-size: 120%;
+}
+#mid1-news1
+{
+    margin-top: 300px;
+    margin-left: 20px;
+}
+.mid2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width:700px;
+
+}
+.mid2-lp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048) ;
+    background-size: cover;
+}
+.mid2-lp:hover
+{
+    background-size: 120%;;
+}
+.mid2-rp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-163a8b4ce9e4-eb2768393b41-1000/format/wide1/bayern_munchen_v_real_sociedad_-_uefa_women_s_champions_league_second_qualifying_round_second_leg.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048https://i0.wp.com/www.thesun.co.uk/wp-content/uploads/2022/09/logo-seen-smartphone-photo-illustration-739388228-1.jpg?resize=780,470) ;  
+    background-size: cover;
+}
+.mid2-rp:hover
+{
+    background-size: 120%;;
+}
+.mid3
+{
+    width:700px;
+    height:400px;
+    margin-top: 30px;
+    border:1px solid #000;
+    background-image: url(https://editorial.uefa.com/resources/0279-163bc5dac977-a23d29208924-1000/format/wide1/uwcl_group_stage_-_twitter_2_20220930112928.png?imwidth=2048https://editorial.uefa.com/resources/0279-161fe3758d36-a5cdb0acb737-1000/format/wide1/ucl_-_matchweek_preview_01_-_twitter_5_.jpeg?imwidth=2048);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: background-image;
+    transition-duration: 2s; 
+}
+.mid3:hover
+{
+    background-size: 120%;
+}
+.mid4
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width:700px; 
+}
+.mid4-lp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-16287e130c61-88d48633592e-1000/format/wide1/uefa_women_s_champions_league_202122_group_stage_draw.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048) ;
+    background-size: cover;
+}
+.mid4-lp:hover
+{
+    background-size: 120%;;
+}
+.mid4-rp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-1633e8bc83ba-18c31df20708-1000/format/wide1/fc_barcelona_v_olympique_lyonnais_-_uefa_women_s_champions_league_final_2021_22.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-163a8b4ce9e4-eb2768393b41-1000/format/wide1/bayern_munchen_v_real_sociedad_-_uefa_women_s_champions_league_second_qualifying_round_second_leg.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048https://i0.wp.com/www.thesun.co.uk/wp-content/uploads/2022/09/logo-seen-smartphone-photo-illustration-739388228-1.jpg?resize=780,470) ;  
+    background-size: cover;
+}
+.mid4-rp:hover
+{
+    background-size: 120%;;
+}
+#btn1-mid
+{
+    width:600px;
+    height:50px;
+    margin-top:20px;
+    margin-left: 50px;
+    border-color: rgb(51, 95, 183);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    color:rgb(31, 99, 189)   
+}
+#btn1-mid:hover
+{
+    background-color: rgb(37, 37, 213);
+    color:aliceblue
+}
+.mid5
+{
+    width:700px;
+    height:400px;
+    margin-top: 30px;
+    border:1px solid #000;
+    background-image: url(https://editorial.uefa.com/resources/0279-1636c552c88a-2dcf138a4ac5-1000/format/wide1/fbl-eur-nations-por-esp.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-163bc5dac977-a23d29208924-1000/format/wide1/uwcl_group_stage_-_twitter_2_20220930112928.png?imwidth=2048https://editorial.uefa.com/resources/0279-161fe3758d36-a5cdb0acb737-1000/format/wide1/ucl_-_matchweek_preview_01_-_twitter_5_.jpeg?imwidth=2048);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: background-image;
+    transition-duration: 2s; 
+}
+.mid5:hover
+{
+    background-size: 120%;
+}
+.mid6
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width:700px; 
+}
+.mid6-lp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-1638017378a0-9b56986e6ef3-1000/format/wide1/netherlands_v_belgium_uefa_nations_league_-_league_path_group_4.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16287e130c61-88d48633592e-1000/format/wide1/uefa_women_s_champions_league_202122_group_stage_draw.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048) ;
+    background-size: cover;
+}
+.mid6-lp:hover
+{
+    background-size: 120%;;
+}
+.mid6-rp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-1638006b7d2c-4007edcce889-1000/format/wide1/germany_v_hungary_uefa_nations_league_-_league_path_group_3.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-1633e8bc83ba-18c31df20708-1000/format/wide1/fc_barcelona_v_olympique_lyonnais_-_uefa_women_s_champions_league_final_2021_22.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-163a8b4ce9e4-eb2768393b41-1000/format/wide1/bayern_munchen_v_real_sociedad_-_uefa_women_s_champions_league_second_qualifying_round_second_leg.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048https://i0.wp.com/www.thesun.co.uk/wp-content/uploads/2022/09/logo-seen-smartphone-photo-illustration-739388228-1.jpg?resize=780,470) ;  
+    background-size: cover;
+}
+.mid6-rp:hover
+{
+    background-size: 120%;;
+}
+.mid7
+{
+    width:700px;
+    height:400px;
+    margin-top: 30px;
+    border:1px solid #000;
+    background-image: url(https://editorial.uefa.com/resources/0279-162040164b7f-f1325017fd4f-1000/format/wide1/liverpool_training_session.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-1636c552c88a-2dcf138a4ac5-1000/format/wide1/fbl-eur-nations-por-esp.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-163bc5dac977-a23d29208924-1000/format/wide1/uwcl_group_stage_-_twitter_2_20220930112928.png?imwidth=2048https://editorial.uefa.com/resources/0279-161fe3758d36-a5cdb0acb737-1000/format/wide1/ucl_-_matchweek_preview_01_-_twitter_5_.jpeg?imwidth=2048);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: background-image;
+    transition-duration: 2s; 
+}
+.mid7:hover
+{
+    background-size: 120%;
+}
+.mid8
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width:700px; 
+}
+.mid8-lp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-162577e7db55-f14147f383a6-1000/format/wide1/fbl-eur-c1-shaktar-celtic.jpeg?imwidth=490https://editorial.uefa.com/resources/0279-1638017378a0-9b56986e6ef3-1000/format/wide1/netherlands_v_belgium_uefa_nations_league_-_league_path_group_4.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16287e130c61-88d48633592e-1000/format/wide1/uefa_women_s_champions_league_202122_group_stage_draw.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048) ;
+    background-size: cover;
+}
+.mid8-lp:hover
+{
+    background-size: 120%;;
+}
+.mid8-rp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-161c9e88ae80-adb8de13e786-1000/format/wide1/fbl-eur-c1-maccabi_haifa-psg.jpeg?imwidth=490https://editorial.uefa.com/resources/0279-1638006b7d2c-4007edcce889-1000/format/wide1/germany_v_hungary_uefa_nations_league_-_league_path_group_3.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-1633e8bc83ba-18c31df20708-1000/format/wide1/fc_barcelona_v_olympique_lyonnais_-_uefa_women_s_champions_league_final_2021_22.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-163a8b4ce9e4-eb2768393b41-1000/format/wide1/bayern_munchen_v_real_sociedad_-_uefa_women_s_champions_league_second_qualifying_round_second_leg.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048https://i0.wp.com/www.thesun.co.uk/wp-content/uploads/2022/09/logo-seen-smartphone-photo-illustration-739388228-1.jpg?resize=780,470) ;  
+    background-size: cover;
+}
+.mid8-rp:hover
+{
+    background-size: 120%;;
+}
+.mid9
+{
+    width:700px;
+    height:400px;
+    margin-top: 30px;
+    border:1px solid #000;
+    background-image: url(https://editorial.uefa.com/resources/0279-16203b457889-32382c3a066e-1000/format/wide1/gloaming.jpeg?imwidth=988https://editorial.uefa.com/resources/0279-162040164b7f-f1325017fd4f-1000/format/wide1/liverpool_training_session.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-1636c552c88a-2dcf138a4ac5-1000/format/wide1/fbl-eur-nations-por-esp.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-163bc5dac977-a23d29208924-1000/format/wide1/uwcl_group_stage_-_twitter_2_20220930112928.png?imwidth=2048https://editorial.uefa.com/resources/0279-161fe3758d36-a5cdb0acb737-1000/format/wide1/ucl_-_matchweek_preview_01_-_twitter_5_.jpeg?imwidth=2048);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: background-image;
+    transition-duration: 2s; 
+}
+.mid9:hover
+{
+    background-size: 120%;
+}
+.mid10
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width:700px; 
+}
+.mid10-lp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-162577e7db55-f14147f383a6-1000/format/wide1/fbl-eur-c1-shaktar-celtic.jpeg?imwidth=490https://editorial.uefa.com/resources/0279-1638017378a0-9b56986e6ef3-1000/format/wide1/netherlands_v_belgium_uefa_nations_league_-_league_path_group_4.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16287e130c61-88d48633592e-1000/format/wide1/uefa_women_s_champions_league_202122_group_stage_draw.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048) ;
+    background-size: cover;
+}
+.mid10-lp:hover
+{
+    background-size: 120%;;
+}
+.mid10-rp
+{
+    width:341px;
+    height:200px;
+    background-image:url(https://editorial.uefa.com/resources/0279-161c9e88ae80-adb8de13e786-1000/format/wide1/fbl-eur-c1-maccabi_haifa-psg.jpeg?imwidth=490https://editorial.uefa.com/resources/0279-1638006b7d2c-4007edcce889-1000/format/wide1/germany_v_hungary_uefa_nations_league_-_league_path_group_3.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-1633e8bc83ba-18c31df20708-1000/format/wide1/fc_barcelona_v_olympique_lyonnais_-_uefa_women_s_champions_league_final_2021_22.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-163a8b4ce9e4-eb2768393b41-1000/format/wide1/bayern_munchen_v_real_sociedad_-_uefa_women_s_champions_league_second_qualifying_round_second_leg.jpeg?imwidth=2048https://editorial.uefa.com/resources/0279-16043edf3ac1-113be286994e-1000/format/wide1/16x9_ucl_ff_splash_clean.jpeg?imwidth=2048https://i0.wp.com/www.thesun.co.uk/wp-content/uploads/2022/09/logo-seen-smartphone-photo-illustration-739388228-1.jpg?resize=780,470) ;  
+    background-size: cover;
+}
+.mid10-rp:hover
+{
+    background-size: 120%;;
+}
+#sp6
+{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(239, 246, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 150%;
+}
+#sp7
+{
+    font-size: 15px;
+    color:rgb(38, 44, 49);
+}
+#sp8
+{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.right1
+{
+    width:330px;
+    height:1550px;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-image: url(images/img1-right.png);
+    background-repeat: no-repeat;
+}
+#btn1-right
+{
+    width:250px;
+    height:50px;
+    margin-top:620px;
+    margin-left: 28px;
+    border-color: rgb(51, 95, 183);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    color:rgb(31, 99, 189)
+}
+#btn1-right:hover
+{
+    background-color: rgb(37, 37, 213);
+    color:aliceblue
+}
+.right2
+{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#btn2-right
+{
+    width:250px;
+    height:50px;
+    border-color: rgb(51, 95, 183);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    color:rgb(31, 99, 189);
+    margin-left: 30px;
+    margin-top: 25px;
+}
+#btn2-right:hover
+{
+    background-color: rgb(37, 37, 213);
+    color:aliceblue
+}
+#sp9
+{
+    font-size: 12px;
+    opacity: 35%;
+    text-align:justify;
+    margin-left: 20px;
+}
+.right3
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#sp10
+{
+    font-size: 20px;
+    
+}
+.right3m
+{
+    width:330px;
+    height:170px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.right3m ul
+{
+    list-style: none;
+}
+.right3m ul li
+{
+    margin-top: 10px;
+}
+.right3m ul li a
+{
+    text-decoration: none;
+    color: rgb(50, 101, 148);
+}
+.right3m ul li a:hover 
+{
+    color:aliceblue
+}
+.footer
+{
+    position: absolute;
+    width:100%;
+    height:1100px;
+    background-image:linear-gradient(to right,rgb(138,134, 134),white,rgb(138, 134, 134)) ;
+    margin-top:3700px;
+}
+.ft1 
+{
+    display: flex;
+
+}
+.ft1-a
+{
+    width:80%;
+    margin-left: 300px;
+}
+.ft .ft1-a ul
+{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+.ft .ft1-a ul li
+{
+    padding-left: 20px;
+}
+.ft1 .ft1-a h1
+{
+    font-size: 20px;
+    color:rgb(16, 105, 177);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+    width:1100px;
+}
+.ft2 
+{
+    display: flex;
+}
+.ft2-a
+{
+    width:80%;
+    margin-left: 300px;
+    margin-top: 30px;
+    
+}
+.ft2-a ul
+{
+    list-style: none;
+}
+.ft2-a ul li
+{
+    margin-top: 20px;  
+    font-size: 15px;
+}
+.ft2-a #sp11
+{
+    font-size: 15px;
+    border-bottom:3.5px solid rgb(8, 92, 169);
+    width:15px;
+    font-weight: 100;
+}
+.ft2-b
+{
+    width:80%;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.ft2-b ul
+{
+    list-style: none;
+}
+.ft2-b ul li
+{
+    margin-top: 20px;  
+}
+.ft2-b #sp11
+{
+    font-size: 15px;
+    border-bottom:3.5px solid rgb(8, 92, 169);
+    width:15px;
+    font-weight: 100;
+}
+.ft2-c
+{
+    width:80%;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.ft2-c ul
+{
+    list-style: none;
+}
+.ft2-c ul li
+{
+    margin-top: 20px;  
+}
+.ft2-c #sp11
+{
+    font-size: 15px;
+    border-bottom:2px solid rgb(8, 92, 169);
+    width:15px;
+    font-weight: 100;
+}
+.ft2-d
+{
+    width:80%;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.ft2-d ul
+{
+    list-style: none;
+}
+.ft2-d ul li
+{
+    margin-top: 20px;  
+}
+.ft2-d #sp11
+{
+    font-size: 15px;
+    border-bottom:3.5px solid rgb(8, 92, 169);
+    width:15px;
+    font-weight: 100;
+}
+.ft3 
+{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+#sp15
+{
+    color:rgb(50, 101, 148) ;
+}
+.ft3-a
+{
+    margin-left: -50px;
+}
+.ft3 ul
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    list-style: none;
+}
+.ft3 ul li
+{
+    margin-top: 20px;
+
+}
+.ft3 hr
+{
+    width:1100px;
+    margin-top: 10px;
+}
+.ft4
+{
+    display: flex;
+    margin-left:300px;
+    margin-top: 180px;
+}
+.ft4a
+{
+    position: relative;
+}
+.ft4a ul
+{
+    list-style: none;
+}
+.ft4a ul li
+{
+    margin-top: 20px;
+}
+.ft4a hr
+{
+    margin-top: 5px;
+    margin-bottom: 35px;
+    width:200px;
+}
+#sp12
+{
+    color:rgb(50, 101, 148);
+}
+.ft4b ul
+{
+    list-style: none;
+    margin-left: 100px;
+}
+.ft4b ul li
+{
+    margin-top: 20px;
+}
+.ft4b hr
+{
+    margin-top: 5px;
+    margin-bottom: 35px;
+    margin-left: 100px;
+    width:200px;
+}
+#sp13
+{
+    color:rgb(50, 101, 148);
+    margin-left: 100px;
+}
+.ft4c ul
+{
+    list-style: none;
+    margin-left: 100px;
+}
+.ft4c ul li
+{
+    margin-top: 20px;
+}
+.ft4c hr
+{
+    margin-top: 5px;
+    margin-bottom: 35px;
+    margin-left: 100px;
+    width:200px;
+}
+#sp14
+{
+    color:rgb(50, 101, 148);
+    margin-left: 100px;
+}
+.ft5 
+{
+    display: flex;
+    flex-direction: column;
+}
+.ft5-a ul
+{
+    margin-top: 30px;
+    margin-left: 450px;
+    list-style: none;
+}
+.ft5-a >ul li
+{
+    float: left;
+    margin-top: 30px;
+    width:100px;
+    border-right: 2px ;
+    border-color: black;
+    border-right-style: dotted;
+    text-align: center;
+}
+.ft5-b ul
+{   margin-top: 100px;
+    list-style: none;
+    border-top: 1px solid #000;
+    width: 1000px;
+    margin-left: 300px;
+    padding-left: 200px;
+}
+.ft5-b ul li
+{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ft6
+{
+    margin-top: 50px;
+    font-size: small;
+    text-align: center;
+}
+#sp16
+{
+    text-align: center;
+}
